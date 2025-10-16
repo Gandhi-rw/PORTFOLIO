@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio website showcasing my skills, projects, and achievements">
+    <title>RWEMA Gandhi</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- ============================================ -->
+    <!-- NAVIGATION BAR -->
+    <!-- Sticky navigation with smooth scrolling -->
+    <!-- ============================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo/Brand Name - REPLACE_ME_NAME -->
+            <a href="#home" class="nav-logo">RWEMA Gandhi</a>
+            
+            <!-- Hamburger Menu Icon (Mobile) -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <!-- Dark Mode Toggle -->
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================ -->
+    <!-- HERO SECTION -->
+    <!-- Main landing area with introduction -->
+    <!-- ============================================ -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <!-- REPLACE_ME_GREETING -->
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">RWEMA Gandhi</span>
+                </h1>
+                
+                <!-- REPLACE_ME_TAGLINE -->
+                <p class="hero-subtitle">
+                    Developer | Designer | AI expert
+                </p>
+                
+                <!-- REPLACE_ME_SHORT_INTRO -->
+                <p class="hero-description">
+                    I build beautiful, functional, and user-friendly digital experiences. 
+                    Welcome to my portfolio where creativity meets coding.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="social-links">
+                    <!-- REPLACE_ME_GITHUB_LINK -->
+                    <a href="https://github.com/Gandhi-rw" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!-- REPLACE_ME_LINKEDIN_LINK -->
+                    <a href="https://www.linkedin.com/in/rwema-gandhi-49b0102bb/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <!-- REPLACE_ME_TWITTER_LINK -->
+                    <a href="https://x.com/GandhiRwem18304" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <!-- REPLACE_ME_INSTAGRAM_LINK (Optional) -->
+                    <a href="https://www.instagram.com/gandhi.r__/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Down Indicator -->
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- ABOUT ME SECTION -->
+    <!-- Detailed personal description -->
+    <!-- ============================================ -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <!-- REPLACE_ME_BIO -->
+                    <p>
+                        I'm a passionate developer with a love for creating elegant solutions to complex problems. 
+                        With a background in computer science and a keen eye for design, I specialize in building 
+                        web applications that are both beautiful and functional.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source 
+                        projects, or enjoying a good book. I believe in continuous learning and always strive to 
+                        improve my skills and knowledge.
+                    </p>
+                    <!-- REPLACE_ME_INTERESTS -->
+                    <p>
+                        My interests include web development, UI/UX design, artificial intelligence, and creating 
+                        tools that make people's lives easier. I'm always excited to take on new challenges and 
+                        collaborate with like-minded individuals.
+                    </p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>-</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SKILLS SECTION -->
+    <!-- Display skills with visual indicators -->
+    <!-- ============================================ -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">My Skills</h2>
+            <p class="section-subtitle fade-in">Technologies and tools I work with</p>
+            
+            <div class="skills-grid fade-in">
+                <!-- REPLACE_ME_SKILL_1 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                    <p class="skill-level">90%</p>
+                </div>
+                
+                <!-- REPLACE_ME_SKILL_2 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <p class="skill-level">85%</p>
+                </div>
+                
+                <!-- REPLACE_ME_SKILL_3 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                    <p class="skill-level">80%</p>
+                </div>
+                
+                <!-- REPLACE_ME_SKILL_4 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <p class="skill-level">75%</p>
+                </div>
+                
+                <!-- REPLACE_ME_SKILL_5 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                    <p class="skill-level">70%</p>
+                </div>
+                
+                <!-- REPLACE_ME_SKILL_6 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git & GitHub</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <p class="skill-level">85%</p>
+                </div>
+                
+                <!-- PLACEHOLDER: ADD YOUR OWN SKILLS -->
+                <div class="skill-card skill-placeholder">
+                    <div class="skill-icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <h3>My Skill</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 0%"></div>
+                    </div>
+                    <p class="skill-level">0%</p>
+                    <p class="placeholder-text">Add a skill</p>
+                </div>
+                
+                <!-- PLACEHOLDER: ADD YOUR OWN SKILLS -->
+                <div class="skill-card skill-placeholder">
+                    <div class="skill-icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <h3>My Skill</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 0%"></div>
+                    </div>
+                    <p class="skill-level">0%</p>
+                    <p class="placeholder-text">Add a skill</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PROJECTS SECTION -->
+    <!-- Showcase portfolio projects -->
+    <!-- ============================================ -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">My Projects</h2>
+            <p class="section-subtitle fade-in">Check out some of my recent works</p>
+            
+            <div class="projects-grid fade-in">
+                <!-- REPLACE_ME_PROJECT_1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- REPLACE_ME_PROJECT_IMAGE_1 -->
+                        <div class="placeholder-image">
+                            <i class="fas fa-image"></i>
+                            <p>Project Image</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>IoT security alarms</h3>
+                        <p>
+                           This is an IoT project that aims at intruder-detection through the use of PIR sensors and Raspberry Pi. It sends the notification to the home owners.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Arduino</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Raspberry Pi</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- REPLACE_ME_PROJECT_2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- REPLACE_ME_PROJECT_IMAGE_2 -->
+                        <div class="placeholder-image">
+                            <i class="fas fa-image"></i>
+                            <p>Project Image</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tournament scoring system</h3>
+                        <p>
+                            A python system that uses Tkinter library for crating a GUI to create a scoring system for a tournament. 
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Pyhton</span>
+                            <span class="tag">Tkinter Library</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- REPLACE_ME_PROJECT_3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- REPLACE_ME_PROJECT_IMAGE_3 -->
+                        <div class="placeholder-image">
+                            <i class="fas fa-image"></i>
+                            <p>Project Image</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hole in One Website</h3>
+                        <p>
+                            A website for a golf resort in Portugal that has golf courses including the famous Sea View course and offers hotel accomodation.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- ACHIEVEMENTS SECTION -->
+    <!-- Display accomplishments and awards -->
+    <!-- ============================================ -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <h2 class="section-title fade-in">Achievements</h2>
+            <p class="section-subtitle fade-in">Milestones and recognitions</p>
+            
+            <div class="achievements-grid fade-in">
+                <!-- PLACEHOLDER: ADD YOUR ACHIEVEMENTS -->
+                <div class="achievement-card achievement-placeholder">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>AIMS Rwanda</h3>
+                    <p class="achievement-date">2024</p>
+                    <p>
+                        I came among the top 30 in Rwanda in the AIMS Africa Mathematics competition. 
+                    </p>
+                </div>
+                
+                <!-- PLACEHOLDER: ADD YOUR ACHIEVEMENTS -->
+                <div class="achievement-card achievement-placeholder">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>School Prefect</h3>
+                    <p class="achievement-date">2025/26</p>
+                    <p>
+                        A schhol prefect at King David Academy in 2025/26 year.
+                    </p>
+                </div>
+                
+                <!-- PLACEHOLDER: ADD YOUR ACHIEVEMENTS -->
+                <div class="achievement-card achievement-placeholder">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Never Again club member</h3>
+                    <p class="achievement-date">2025/26</p>
+                    <p>
+                        A member of the never again club 
+                    </p>
+                </div>
+                
+                <!-- PLACEHOLDER: ADD YOUR ACHIEVEMENTS -->
+                <div class="achievement-card achievement-placeholder">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Sports club member</h3>
+                    <p class="achievement-date">2025/26</p>
+                    <p>
+                        A member of the sports club at King David Academy
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CONTACT SECTION -->
+    <!-- Contact form and information -->
+    <!-- ============================================ -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <p class="section-subtitle fade-in">Reach out - I'd love to hear from you!</p>
+            
+            <div class="contact-content fade-in">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <!-- REPLACE_ME_EMAIL -->
+                            <p><a href="https://mail.google.com/mail/u/0/">gandhirwema@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <!-- REPLACE_ME_PHONE -->
+                            <p>+250 729 579 902</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <!-- REPLACE_ME_LOCATION -->
+                            <a href="https://www.google.com/maps/@-1.678113,29.250098,3a,75y,135.99h,91.43t/data=!3m7!1e1!3m5!1s_60DDh_GETJI9X6eIfDupA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1.4289651212315704%26panoid%3D_60DDh_GETJI9X6eIfDupA%26yaw%3D135.98766962699506!7i16384!8i8192!5m1!1e4?entry=ttu&g_ep=EgoyMDI1MTAxMy4wIKXMDSoASAFQAw%3D%3D">Gisenyi, Rubavu, Rwanda</a>
+                
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <!-- REPLACE_ME_GITHUB_LINK -->
+                            <a href="https://github.com/Gandhi-rw" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <!-- REPLACE_ME_LINKEDIN_LINK -->
+                            <a href="https://www.linkedin.com/in/rwema-gandhi-49b0102bb/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <!-- REPLACE_ME_TWITTER_LINK -->
+                            <a href="https://x.com/GandhiRwem18304" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <!-- REPLACE_ME_INSTAGRAM_LINK -->
+                            <a href="https://www.instagram.com/gandhi.r__/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER -->
+    <!-- Footer with links and copyright -->
+    <!-- ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <!-- REPLACE_ME_NAME -->
+                    <h3>YourName</h3>
+                    <p>Building digital experiences that matter.</p>
+                    <div class="social-links">
+                        <!-- REPLACE_ME_GITHUB_LINK -->
+                        <a href="https://github.com/Gandhi-rw" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!-- REPLACE_ME_LINKEDIN_LINK -->
+                        <a href="https://www.linkedin.com/in/rwema-gandhi-49b0102bb/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <!-- REPLACE_ME_TWITTER_LINK -->
+                        <a href="https://x.com/GandhiRwem18304" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <!-- REPLACE_ME_INSTAGRAM_LINK -->
+                        <a href="https://www.instagram.com/gandhi.r__/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact">
+                        <!-- REPLACE_ME_EMAIL -->
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/u/0/">gandhirwema@gmail.com</a>
+                        </li>
+                        <!-- REPLACE_ME_PHONE -->
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+250 729 579 902</span>
+                        </li>
+                        <!-- REPLACE_ME_LOCATION -->
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="https://www.google.com/maps/@-1.678113,29.250098,3a,75y,135.99h,91.43t/data=!3m7!1e1!3m5!1s_60DDh_GETJI9X6eIfDupA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1.4289651212315704%26panoid%3D_60DDh_GETJI9X6eIfDupA%26yaw%3D135.98766962699506!7i16384!8i8192!5m1!1e4?entry=ttu&g_ep=EgoyMDI1MTAxMy4wIKXMDSoASAFQAw%3D%3D">Gisenyi, Rubavu, Rwanda</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <!-- REPLACE_ME_COPYRIGHT -->
+                <p>&copy; 2025 RWEMA Gandhi. All rights reserved.</p>
+                <p>Designed & Built by RWEMA Gandhi</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
